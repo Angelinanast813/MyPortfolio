@@ -1,0 +1,16 @@
+{
+  "facts": [
+    {
+      "id" : 1,
+      "content": "I'm a sketch painter based in Kiyv, Ukraine. I have a passion for painting and love to draw sketches for other people. Once it started as a hobby but then had become my life's work."
+    },
+    {
+      "id" : 2,
+      "content": "In childhood I was studying at art school. I've learnt there all drawing techniques and tricks and made my first steps in the world of art. I've drawn a lot of pictures in different styles there and decided that sketching is my favorite."
+    },
+    {
+      "id" : 3,
+      "content": "My paintings show the state of my mind. I always try to project all my feelings and thoughts onto paper. And I have a lot what say by my pictures."
+    }
+  ]
+}

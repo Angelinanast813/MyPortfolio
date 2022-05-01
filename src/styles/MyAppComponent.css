@@ -1,0 +1,84 @@
+.bground{
+
+}
+
+.app-nav{
+    opacity: .98;
+    position: fixed;
+    width: 100%;
+    height: 110px;
+    background: #FFF9FC;
+    z-index: 999;
+    border-bottom: 1px solid gray;
+    margin-top: -110px;
+    transition: .5s;
+}
+
+.header-hidden{
+    margin-top: 0;
+    border-bottom: 1px solid gray;
+    background: #FFF9FC;
+    transition: .5s;
+}
+
+.header-clr{
+    background: #eacdcf;
+    border-bottom: none;
+    transition: .5s;
+}
+
+.mrg-10{
+    margin-top: 10px;
+}
+
+.app-navs{
+    width: 90%;
+    height: 50%;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.app-image{
+    background: white;
+    border-radius: 50% 50%;
+    border: 2px solid #CD6155;
+    width: 90px;
+    height: 90px;
+}
+
+.app-logo{
+    width: 90%;
+    height: 90%;
+    margin: 5%;
+}
+
+.app-menu-item{
+    margin: 3%;
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+    color: #CD6155;
+    transition: .5s;
+}
+
+.app-menu-item:hover{
+    color: #424949;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.app-hov{
+    color: #424949;
+    transition: .5s;
+}
+
+@media screen and (max-width: 700px){
+    .app-menu-item{
+        font-size: .8em;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .app-menu-item{
+        font-size: .75em;
+    }
+}

@@ -1,0 +1,47 @@
+.welcome{
+    background: #eacdcf;
+}
+
+.title-big-div{
+    animation: 1s hide-title 1s forwards;
+    text-align: center;
+}
+
+.title-welcome{
+    font-size: 9em;
+    color: #943126;
+    font-family: 'Cabin Sketch', cursive;
+}
+
+.logo-big{
+    width: 90%;
+    height: 90%;
+    margin: 1% 5%;
+}
+
+@keyframes hide-title {
+    from{
+        opacity: 1;
+        display: block;
+    }
+
+    to{
+        opacity: 0;
+        display: none;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .title-welcome{
+        font-size: 5em;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .title-welcome{
+        font-size: 3em;
+    }
+}
+
+
+

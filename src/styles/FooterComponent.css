@@ -1,0 +1,40 @@
+.footer{
+    width: 100%;
+    min-height: 150px;
+    background: #eacdcf;
+}
+
+.footer-main{
+    min-height: 150px;
+}
+
+.footer-rts{
+    text-align: center;
+    font-size: .7em;
+    color: #CD6155;
+}
+
+.footer-btn{
+    font-size: 1.1em;
+    color: #CD6155;
+    transition: .5s;
+}
+
+.footer-btn:hover{
+    text-decoration: none;
+    transition: .5s;
+    color: #424949;
+}
+
+.footer-me{
+    color: #CD6155;
+    border-bottom: 1px solid #CD6155;
+    transition: .5s;
+}
+
+.footer-me:hover{
+    text-decoration: none;
+    transition: .5s;
+    color: #424949;
+    border-bottom: 1px solid #424949;
+}

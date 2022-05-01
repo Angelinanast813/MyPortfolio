@@ -1,0 +1,212 @@
+.main{
+    background: #eacdcf;
+    width: 100%;
+    min-height: 500px;
+}
+
+.header{
+    width: 100%;
+    height: 110px;
+}
+
+.bg-wheat{
+    background: wheat;
+    animation: 2s show-nav forwards;
+}
+
+.image{
+    background: white;
+    border-radius: 50% 50%;
+    border: 2px solid #CD6155;
+    width: 90px;
+    height: 90px;
+}
+
+.navs{
+    width: 90%;
+    height: 50%;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.logo{
+    width: 90%;
+    height: 90%;
+    margin: 5%;
+}
+
+.menu-item{
+    margin: 3%;
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+    color: #CD6155;
+    transition: .5s;
+}
+
+.menu-item:hover{
+    color: #424949;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.journal{
+    width: 100%;
+    height: 270px;
+    animation: 2s show-sketches forwards;
+}
+
+.journal div{
+    width: 688px;
+    height: 100%;
+}
+
+.content{
+    height: 100px;
+    text-align: center;
+}
+
+.show-n{
+    opacity: 0;
+    animation: 2s show-name forwards;
+}
+
+.name{
+    font-size: 6em;
+    font-family: 'Cabin Sketch', cursive;
+    color: #CD6155;
+}
+
+.pos{
+    font-size: 1.7em;
+    font-family: 'Merienda One', cursive;
+    color: #CD6155;
+}
+
+.sketchs{
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes show-name {
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes show-sketches {
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes show-nav {
+    from {
+        margin-top: -100%;
+
+    }
+
+    70%{
+        background: #FFF9FC;
+    }
+
+    to{
+        margin-top: 0;
+        background: #eacdcf;
+    }
+}
+
+.brush{
+    width: 15%;
+    min-height: 120px;
+    background: url("/images/brush.png");
+    background-size: 100% 100%;
+    margin-left: -15%;
+    margin-top: 50px;
+    animation: 1s show-brush 2s forwards;
+}
+
+.pencil{
+    width: 15%;
+    min-height: 120px;
+    background: url("/images/pencil.png");
+    background-size: 100% 100%;
+    margin-top: 50px;
+    margin-right: -15%;
+    animation: 1s show-pencil 2s forwards;
+}
+
+@keyframes show-brush {
+    from{
+        margin-left: -15%;
+    }
+
+    to{
+        margin-left: 5%;
+    }
+}
+
+@keyframes show-pencil {
+    from{
+        margin-right: -15%;
+    }
+
+    to{
+        margin-right: 5%;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .main{
+        min-width: 100%;
+    }
+
+    .name{
+        font-size: 3em;
+    }
+
+    .pos{
+        font-size: 1em;
+    }
+
+    .brush{
+        display: none;
+    }
+
+    .pencil{
+        display: none;
+    }
+
+    .journal{
+        height: 200px;
+    }
+
+    .menu-item{
+        font-size: .8em;
+    }
+
+    .menu-item:hover{
+        color: #CD6155;
+    }
+}
+
+@media screen and (max-width: 320px){
+
+
+    .journal{
+        height: 150px;
+    }
+
+    .menu-item{
+        font-size: .7em;
+    }
+}
+
+

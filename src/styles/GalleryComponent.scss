@@ -1,0 +1,141 @@
+
+.gallery{
+  width: 100%;
+  min-height: 600px;
+}
+.gallery-div{
+  width: 95%;
+  min-height: 100%;
+  overflow: hidden;
+  border: 10px solid #943126;
+  background: url("/images/gal-bg3.jpg") no-repeat center center;
+  background-size: 100% 100%;
+}
+.gallery-wrap{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  -webkit-perspective: 2500px;
+  perspective: 2500px;
+  -webkit-perspective-origin: 100% 50%;
+  perspective-origin: 100% 50%;
+
+  .gallery-title{
+    left: 0;
+    transform: rotate(-49deg);
+    color: #FFF9FC;
+    font-size: 4em;
+    font-family: 'Poiret One', cursive;
+    top: 25%;
+    position: absolute;
+    //border: 4px solid #943126;
+    //background: #CD6155;
+    padding-left: 10px;
+    padding-right: 10px;
+
+  }
+
+  .gallery-ttl-line{
+    width: 245px;
+    height: 6px;
+    background: #943126;
+    transform: rotate(45deg);
+    transform-origin: top left;
+
+
+  }
+
+  .gallery-list{
+    width: 80%;
+    height: 220vh;
+    overflow-x: hidden;
+    -webkit-transform: rotateX(35deg) rotateY(3deg) rotateZ(27deg);
+    transform: rotateX(35deg) rotateY(3deg) rotateZ(27deg);
+    margin: -380px 0 0 300px;
+    padding: 450px 100px 500px 0;
+    scrollbar-width: none;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    &::-webkit-scrollbar {
+      display: block;
+    }
+    .item{
+      cursor: pointer;
+      filter: grayscale(100%);
+      width: 30%;
+      height: 400px;
+      margin: 20px;
+      display: inline-block;
+      position: relative;
+      transition: .5s;
+      &::after {
+        content: '';
+        position: absolute;
+        z-index: 150;
+        width: 100%;
+        top: 0;
+        left: -0px;
+        height: 100%;
+        background: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3960c8e1-d90e-4e60-8522-816b41b93892/d84vq6v-5985a860-c6c3-453c-a0ae-e80e5e5abf06.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzM5NjBjOGUxLWQ5MGUtNGU2MC04NTIyLTgxNmI0MWI5Mzg5MlwvZDg0dnE2di01OTg1YTg2MC1jNmMzLTQ1M2MtYTBhZS1lODBlNWU1YWJmMDYucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.G2ljZtN3fPs4NhvF-fCGxl_97BA4w8kvt_qGyJH1RNI");
+        opacity: .1;
+
+      }
+
+      &:hover {
+        z-index: 2;
+        transform: scale(1.5);
+        transition: .5s;
+      }
+      .img{
+        width: 100%;
+        height: 100%;
+        background-size: 100% 100%;
+        background-position: center center;
+        box-shadow: 1px 1px 50px 0 white;
+        -webkit-transform-origin: 100% 50%;
+        -ms-transform-origin: 100% 50%;
+        transform-origin: 100% 50%;
+        z-index: 10;
+        position: relative;
+
+
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  //h1{
+  //  display:none;
+  //}
+
+  .gallery-wrap{
+    .gallery-title{
+      transform: none;
+      display: none;
+    }
+    .gallery-list{
+      height: 400px;
+      transform: rotate(90deg);
+      border: 1px solid black;
+      width: 100%;
+      padding: 0;
+      margin: 0;
+      .item{
+        width: 50%;
+        transform: rotate(90deg);
+        border: 1px solid red;
+        margin: 0;
+      }
+    }
+  }
+
+
+}

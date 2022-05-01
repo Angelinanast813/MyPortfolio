@@ -1,0 +1,60 @@
+{
+  "paintings": [
+    {
+      "id": "1",
+      "src": "url(/images/paintings/pic1.jpg)",
+      "alt": "My painting 1"
+    },
+    {
+      "id": "2",
+      "src": "url(/images/paintings/pic2.jpg)",
+      "alt": "My painting 2"
+    },
+    {
+      "id": "3",
+      "src": "url(/images/paintings/pic3.jpg)",
+      "alt": "My painting 3"
+    },
+    {
+      "id": "4",
+      "src": "url(/images/paintings/pic4.jpg)",
+      "alt": "My painting 4"
+    },
+    {
+      "id": "5",
+      "src": "url(/images/paintings/pic5.jpg)",
+      "alt": "My painting 5"
+    },
+    {
+      "id": "6",
+      "src": "url(/images/paintings/pic6.jpg)",
+      "alt": "My painting 6"
+    },
+    {
+      "id": "7",
+      "src": "url(/images/paintings/pic7.jpg)",
+      "alt": "My painting 7"
+    },
+    {
+      "id": "8",
+      "src": "url(/images/paintings/pic8.jpg)",
+      "alt": "My painting 8"
+    },
+    {
+      "id": "9",
+      "src": "url(/images/paintings/pic9.jpg)",
+      "alt": "My painting 9"
+    },
+    {
+      "id": "10",
+      "src": "url(/images/paintings/pic10.jpg)",
+      "alt": "My painting 10"
+    },
+    {
+      "id": "11",
+      "src": "url(/images/paintings/pic11.jpg)",
+      "alt": "My painting 11"
+    }
+  ]
+}
+
